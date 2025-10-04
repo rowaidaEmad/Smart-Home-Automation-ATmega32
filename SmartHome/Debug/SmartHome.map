@@ -1,0 +1,791 @@
+Archive member included because of file (symbol)
+
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./LDR.o (__mulsi3)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ./PWM.o (__udivmodhi4)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./smarHomeAppl.o (__do_copy_data)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./LCD.o (__fixunssfsi)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./LCD.o (__mulsf3)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                              ./LDR.o (__divsf3)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./LCD.o (__gtsf2)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./LCD.o (__ltsf2)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                              ./LDR.o (__floatunsisf)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o) (__clzsi2)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o) (__clz_tab)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              ./LCD.o (itoa)
+d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./BUZZER.o
+LOAD ./DC_MOTOR.o
+LOAD ./FlameSensor.o
+LOAD ./GPIO.o
+LOAD ./LCD.o
+LOAD ./LDR.o
+LOAD ./LED.o
+LOAD ./PWM.o
+LOAD ./adc.o
+LOAD ./lm35_sensor.o
+LOAD ./smarHomeAppl.o
+LOAD d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2792
+ *(.vectors)
+ .vectors       0x00000000       0x54 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000076        0x8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000007e        0x4 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000007e                __vector_1
+                0x0000007e                __vector_12
+                0x0000007e                __bad_interrupt
+                0x0000007e                __vector_6
+                0x0000007e                __vector_3
+                0x0000007e                __vector_11
+                0x0000007e                __vector_13
+                0x0000007e                __vector_17
+                0x0000007e                __vector_19
+                0x0000007e                __vector_7
+                0x0000007e                __vector_5
+                0x0000007e                __vector_4
+                0x0000007e                __vector_9
+                0x0000007e                __vector_2
+                0x0000007e                __vector_15
+                0x0000007e                __vector_8
+                0x0000007e                __vector_14
+                0x0000007e                __vector_10
+                0x0000007e                __vector_16
+                0x0000007e                __vector_18
+                0x0000007e                __vector_20
+ .text          0x00000082        0x0 ./BUZZER.o
+ .text          0x00000082        0x0 ./DC_MOTOR.o
+ .text          0x00000082        0x0 ./FlameSensor.o
+ .text          0x00000082        0x0 ./GPIO.o
+ .text          0x00000082        0x0 ./LCD.o
+ .text          0x00000082        0x0 ./LDR.o
+ .text          0x00000082        0x0 ./LED.o
+ .text          0x00000082        0x0 ./PWM.o
+ .text          0x00000082        0x0 ./adc.o
+ .text          0x00000082        0x0 ./lm35_sensor.o
+ .text          0x00000082        0x0 ./smarHomeAppl.o
+ .text          0x00000082        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000082        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000082        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000082        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000082       0x58 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000082                __fixunssfsi
+ .text          0x000000da      0x354 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000372                __subsf3
+                0x000003d4                __addsf3
+ .text          0x0000042e      0x1f4 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000042e                __mulsf3
+ .text          0x00000622      0x158 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                0x00000622                __divsf3
+ .text          0x0000077a       0x60 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x0000077a                __gtsf2
+ .text          0x000007da       0x60 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x000007da                __gesf2
+ .text          0x0000083a       0x60 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x0000083a                __ltsf2
+ .text          0x0000089a       0xa8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x0000089a                __fixsfsi
+ .text          0x00000942        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00000942       0xf2 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                0x00000942                __floatunsisf
+ .text          0x00000a34        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000a34        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00000a34       0x9e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                0x00000a34                __clzsi2
+ .text          0x00000ad2      0x1aa d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x00000ad2                __pack_f
+ .text          0x00000c7c       0xf0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000c7c                __unpack_f
+ .text          0x00000d6c       0xb2 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000d6c                __fpcmp_parts_f
+ .text          0x00000e1e        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ .text          0x00000e1e        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000e1e        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00000e1e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.Buzzer_init
+                0x00000e1e       0x22 ./BUZZER.o
+                0x00000e1e                Buzzer_init
+ .text.Buzzer_on
+                0x00000e40       0x18 ./BUZZER.o
+                0x00000e40                Buzzer_on
+ .text.Buzzer_off
+                0x00000e58       0x18 ./BUZZER.o
+                0x00000e58                Buzzer_off
+ .text.DcMotor_Init
+                0x00000e70       0x3e ./DC_MOTOR.o
+                0x00000e70                DcMotor_Init
+ .text.DcMotor_Rotate
+                0x00000eae       0x98 ./DC_MOTOR.o
+                0x00000eae                DcMotor_Rotate
+ .text.FlameSensor_init
+                0x00000f46       0x18 ./FlameSensor.o
+                0x00000f46                FlameSensor_init
+ .text.FlameSensor_getValue
+                0x00000f5e       0x16 ./FlameSensor.o
+                0x00000f5e                FlameSensor_getValue
+ .text.GPIO_setupPinDirection
+                0x00000f74      0x1d6 ./GPIO.o
+                0x00000f74                GPIO_setupPinDirection
+ .text.GPIO_writePin
+                0x0000114a      0x1d6 ./GPIO.o
+                0x0000114a                GPIO_writePin
+ .text.GPIO_readPin
+                0x00001320      0x1d8 ./GPIO.o
+                0x00001320                GPIO_readPin
+ .text.GPIO_setupPortDirection
+                0x000014f8       0x88 ./GPIO.o
+                0x000014f8                GPIO_setupPortDirection
+ .text.GPIO_writePort
+                0x00001580       0x88 ./GPIO.o
+                0x00001580                GPIO_writePort
+ .text.GPIO_readPort
+                0x00001608       0x8c ./GPIO.o
+                0x00001608                GPIO_readPort
+ .text.LCD_init
+                0x00001694      0x138 ./LCD.o
+                0x00001694                LCD_init
+ .text.LCD_sendCommand
+                0x000017cc      0x3de ./LCD.o
+                0x000017cc                LCD_sendCommand
+ .text.LCD_displayCharacter
+                0x00001baa      0x3de ./LCD.o
+                0x00001baa                LCD_displayCharacter
+ .text.LCD_displayString
+                0x00001f88       0x52 ./LCD.o
+                0x00001f88                LCD_displayString
+ .text.LCD_moveCursor
+                0x00001fda       0x84 ./LCD.o
+                0x00001fda                LCD_moveCursor
+ .text.LCD_displayStringRowColumn
+                0x0000205e       0x32 ./LCD.o
+                0x0000205e                LCD_displayStringRowColumn
+ .text.LCD_intgerToString
+                0x00002090       0x46 ./LCD.o
+                0x00002090                LCD_intgerToString
+ .text.LCD_clearScreen
+                0x000020d6       0x14 ./LCD.o
+                0x000020d6                LCD_clearScreen
+ .text.LDR_getLightIntensity
+                0x000020ea       0x92 ./LDR.o
+                0x000020ea                LDR_getLightIntensity
+ .text.LEDS_init
+                0x0000217c       0x3e ./LED.o
+                0x0000217c                LEDS_init
+ .text.LED_on   0x000021ba       0x62 ./LED.o
+                0x000021ba                LED_on
+ .text.LED_off  0x0000221c       0x62 ./LED.o
+                0x0000221c                LED_off
+ .text.PWM_Timer0_Start
+                0x0000227e       0x64 ./PWM.o
+                0x0000227e                PWM_Timer0_Start
+ .text.ADC_init
+                0x000022e2       0x1e ./adc.o
+                0x000022e2                ADC_init
+ .text.ADC_readChannel
+                0x00002300       0x6e ./adc.o
+                0x00002300                ADC_readChannel
+ .text.LM35_getTemperature
+                0x0000236e       0x8a ./lm35_sensor.o
+                0x0000236e                LM35_getTemperature
+ .text.main     0x000023f8       0x86 ./smarHomeAppl.o
+                0x000023f8                main
+ .text.LCD_Display_Real_time_feedback
+                0x0000247e       0x84 ./smarHomeAppl.o
+                0x0000247e                LCD_Display_Real_time_feedback
+ .text.Automatic_Lighting_Control
+                0x00002502       0xa2 ./smarHomeAppl.o
+                0x00002502                Automatic_Lighting_Control
+ .text.Automatic_Fan_Speed_Control
+                0x000025a4       0xb4 ./smarHomeAppl.o
+                0x000025a4                Automatic_Fan_Speed_Control
+ .text.libgcc   0x00002658       0x3e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002658                __mulsi3
+ .text.libgcc   0x00002696       0x28 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002696                __udivmodhi4
+ .text.libgcc   0x000026be        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000026be        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000026be       0x38 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000026be                __prologue_saves__
+ .text.libgcc   0x000026f6       0x36 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000026f6                __epilogue_restores__
+ .text.avr-libc
+                0x0000272c       0x42 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x0000272c                itoa
+ .text.avr-libc
+                0x0000276e       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x0000276e                strrev
+                0x0000278e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000278e        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x0000278e                exit
+                0x0000278e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000278e        0x4 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00002792                _etext = .
+
+.data           0x00800060      0x13a load address 0x00002792
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./BUZZER.o
+ .data          0x00800060        0x0 ./DC_MOTOR.o
+ .data          0x00800060        0x0 ./FlameSensor.o
+ .data          0x00800060        0x0 ./GPIO.o
+ .data          0x00800060        0x0 ./LCD.o
+ .data          0x00800060        0x0 ./LDR.o
+ .data          0x00800060        0x0 ./LED.o
+ .data          0x00800060        0x0 ./PWM.o
+ .data          0x00800060        0x0 ./adc.o
+ .data          0x00800060        0x0 ./lm35_sensor.o
+ .data          0x00800060       0x31 ./smarHomeAppl.o
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x00800091        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800091        0x8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800091                __thenan_sf
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x00800099        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00800099      0x100 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00800099                __clz_tab
+ .data          0x00800199        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800199        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080019a                . = ALIGN (0x2)
+ *fill*         0x00800199        0x1 00
+                0x0080019a                _edata = .
+                0x0080019a                PROVIDE (__data_end, .)
+
+.bss            0x0080019a        0x0
+                0x0080019a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x0080019a        0x0 ./BUZZER.o
+ .bss           0x0080019a        0x0 ./DC_MOTOR.o
+ .bss           0x0080019a        0x0 ./FlameSensor.o
+ .bss           0x0080019a        0x0 ./GPIO.o
+ .bss           0x0080019a        0x0 ./LCD.o
+ .bss           0x0080019a        0x0 ./LDR.o
+ .bss           0x0080019a        0x0 ./LED.o
+ .bss           0x0080019a        0x0 ./PWM.o
+ .bss           0x0080019a        0x0 ./adc.o
+ .bss           0x0080019a        0x0 ./lm35_sensor.o
+ .bss           0x0080019a        0x0 ./smarHomeAppl.o
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x0080019a        0x0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.bss*)
+ *(COMMON)
+                0x0080019a                PROVIDE (__bss_end, .)
+                0x00002792                __data_load_start = LOADADDR (.data)
+                0x000028cc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080019a        0x0
+                0x0080019a                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080019a                PROVIDE (__noinit_end, .)
+                0x0080019a                _end = .
+                0x0080019a                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x2658
+ *(.stab)
+ .stab          0x00000000      0x27c ./BUZZER.o
+ .stab          0x0000027c      0x234 ./DC_MOTOR.o
+                                0x30c (size before relaxing)
+ .stab          0x000004b0      0x168 ./FlameSensor.o
+                                0x240 (size before relaxing)
+ .stab          0x00000618      0x768 ./GPIO.o
+                                0x840 (size before relaxing)
+ .stab          0x00000d80      0xae0 ./LCD.o
+                                0xd38 (size before relaxing)
+ .stab          0x00001860      0x18c ./LDR.o
+                                0x228 (size before relaxing)
+ .stab          0x000019ec      0x264 ./LED.o
+                                0x33c (size before relaxing)
+ .stab          0x00001c50      0x1a4 ./PWM.o
+                                0x42c (size before relaxing)
+ .stab          0x00001df4      0x1f8 ./adc.o
+                                0x444 (size before relaxing)
+ .stab          0x00001fec      0x18c ./lm35_sensor.o
+                                0x228 (size before relaxing)
+ .stab          0x00002178      0x4e0 ./smarHomeAppl.o
+                                0x5e8 (size before relaxing)
+
+.stabstr        0x00000000      0xf1c
+ *(.stabstr)
+ .stabstr       0x00000000      0xf1c ./BUZZER.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000080       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000100       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000120       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000140       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000160       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000180       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x1f2
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000008d       0x1e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x000000ab       0x1e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000c9       0x1e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000e7       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000107       0x22 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x00000129       0x24 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x0000014d       0x1f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x0000016c       0x1f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x0000018b       0x21 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x000001ac       0x26 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x000001d2       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x240b
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x3fc d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_info    0x00000dac      0x27f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000102b      0x27f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x000012aa      0x27f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x00001529      0x2b0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000017d9      0x12c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001905      0x206 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00001b0b      0x117 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_info    0x00001c22      0x2df d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001f01      0x251 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00002152      0x210 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00002362       0xa9 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1386
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x216 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000678      0x15a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000007d2      0x15a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000092c      0x15a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000a86      0x17f d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00000c05       0xad d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000cb2      0x157 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00000e09       0xc4 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000ecd      0x1c0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x0000108d      0x154 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x000011e1      0x13b d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x0000131c       0x6a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x11d6
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f      0x1d5 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_line    0x00000764       0xd3 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000837       0xd3 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x0000090a       0xd3 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x000009dd      0x109 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000ae6       0x90 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000b76      0x133 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00000ca9       0xa5 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_line    0x00000d4e      0x18a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000ed8      0x14b d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00001023      0x137 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x0000115a       0x7c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x1c0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_frame   0x000000a0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000c0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000e0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000100       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000120       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x00000140       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000160       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000180       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x000001a0       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x2f6
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233       0x35 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000268        0x8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000270        0x8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000278        0x8 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000280        0xa d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000028a       0x21 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x000002ab       0x20 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x000002cb       0x10 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002db        0xb d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x000002e6       0x10 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000      0x96e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0xc0 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_div_sf.o)
+ .debug_loc     0x00000522       0x3c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000055e       0x3c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000059a       0x3c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x000005d6       0x7e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000654       0x4c d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x000006a0       0x94 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000734      0x13e d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00000872       0xac d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000091e       0x50 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(SmartHome.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 d:/avr/setupfolder/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)

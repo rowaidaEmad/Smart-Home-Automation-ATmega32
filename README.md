@@ -1,4 +1,5 @@
 # 🏠 Smart Home Automation on ATmega32 (LCD + LDR + LM35 + Flame + PWM Fan)
+<img width="1897" height="917" alt="image" src="https://github.com/user-attachments/assets/9c1c7262-b115-417c-944f-f06bbb5f204b" />
 
 A smart home controller built on **ATmega32 @ 16 MHz**. It automates **lighting**, **fan speed**, and **fire alerts** using:
 - **LDR** (light intensity) → drives **RGB LEDs** by thresholds

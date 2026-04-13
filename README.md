@@ -112,6 +112,6 @@ MCAL / Low-level
 1. **Lighting:** LDR percentage maps to LED bands (see thresholds).  
 2. **Fan:** LM35 temperature maps to PWM duty; LCD shows **FAN ON/OFF**.  
 3. **Fire:** flame → LCD shows **“Critical alert!”**, buzzer ON until flame clears.  
-4. **LCD:** live `Temp=…C` and `LDR=…%` on row 2.
+4. **LCD:** live `Temp=…C` and `LDR=…%` on row 2.    
 
 
